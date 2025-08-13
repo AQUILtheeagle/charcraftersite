@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'VT323', monospace;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 2.5rem;
+    border-bottom: 2px solid #333;
+    flex-wrap: wrap;
+}
+
+.logo-image {
+    height: 80px;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.main-nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.625rem 1.25rem;
+    border: 2px solid transparent;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.main-nav li.active a {
+    background-color: #00ff00;
+    color: #000;
+    font-weight: bold;
+}
+
+.main-nav a:hover {
+    color: #00ff00;
+}
+
+.user-actions {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.donate-btn {
+    background-color: #ffcc00;
+    color: #000;
+    text-decoration: none;
+    padding: 0.5rem 0.75rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    font-family: 'VT323', monospace;
+    transition: background-color 0.3s;
+}
+
+.donate-btn:hover {
+    background-color: #00ff00;
+}
+
+main {
+    display: flex;
+    padding: 2.5rem;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+}
+
+.text-content {
+    flex: 1;
+    max-width: 50%;
+}
+
+.title-image {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 10px;
+}
+
+.pixel-text {
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 2px 2px #000;
+}
+
+h2.subtitle {
+    font-size: 1.5rem;
+    color: #00ff00;
+    margin-bottom: 30px;
+}
+
+.description {
+    font-family: 'VT323', monospace;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.highlight-green {
+    color: #00ff00;
+}
+
+.ascii-art {
+    flex: 1;
+    background-color: #000;
+    padding: 1.25rem;
+    overflow: hidden;
+}
+
+.ascii-map-image {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+.announce-main {
+    padding: 2.5rem;
+    color: #00ff00;
+}
+
+.announce-title {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+#announcement-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.post-container {
+    border: 2px solid #00ff00;
+    padding: 1.5rem;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.username {
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+.post-details {
+    font-size: 0.8rem;
+    color: #fff;
+}
+
+.post-body {
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.post-title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.2rem;
+    color: #00ff00;
+    margin-bottom: 0.5rem;
+}
+
+@media (max-width: 800px) {
+    header, main {
+        flex-direction: column;
+        padding: 1.25rem;
+    }
+    
+    .main-nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+    
+    .text-content {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .ascii-art {
+        width: 100%;
+    }
+    
+    .ascii-map-image {
+        width: 100%;
+    }
+}
