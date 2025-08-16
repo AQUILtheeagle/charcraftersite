@@ -16,10 +16,17 @@
       "author": "AQUIL the eagle",
       "date": "14/08/2025",
       "title": "New version of CharCrafter 'Ver1 AlpDev1.2' released!!!",
-      "content": "In this new version, Temperature has been added, which changes according to the season and the tile."
+      "content": "In this new version, temperature has been added, which changes according to the season and the tile."
+    },
+    {
+      "author": "AQUIL the eagle",
+      "date": "16/08/2025",
+      "title": "New version of CharCrafter 'Ver1 AlpDev1.3' released!!!",
+      "content": "In this new version, hunger, thirst, and stamina now decrease day by day, move by move. An inventory has also been added, with a starter kit and the option to eat or drink."
     }
   ]
 }
+
 
 
 
