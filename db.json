@@ -35,9 +35,16 @@
       "date": "21/08/2025",
       "title": "New version of CharCrafter 'Ver1 AlpDev1.5' released!!!",
       "content": "The game will now be shared in a .zip file with the .exe file and the folder containing the files needed to run the .exe (to try to reduce false positives). In this new version, You can now interact with some tiles, especially trees, bushes, and friendly outpost tiles. Fluids such as water sources or quicksand will now slow down the player, thus increasing the game speed."
+    },
+    {
+      "author": "AQUIL the eagle",
+      "date": "01/09/2025",
+      "title": "New version of CharCrafter 'Ver1 AlpDev1.6' released!!!",
+      "content": "In this new version, The crafting menu, caves, and NPCs have been added, and the greeting logic for outpost buildings has been expanded. Now the game will start to be promoted on TIKTOK, on my profile."
     }
   ]
 }
+
 
 
 
