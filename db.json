@@ -41,9 +41,16 @@
       "date": "01/09/2025",
       "title": "New version of CharCrafter 'Ver1 AlpDev1.6' released!!!",
       "content": "In this new version, The crafting menu, caves, and NPCs have been added, and the greeting logic for outpost buildings has been expanded. Now the game will start to be promoted on TIKTOK, on my profile."
+    },
+    {
+      "author": "AQUIL the eagle",
+      "date": "04/09/2025",
+      "title": "WHERE WAS IT WHEN IT WAS NEEDED??",
+      "content": "In this new version ('Ver1 AlpDev1.6.1'), the executable has been replaced by the Python Archive Zip (or simply '.pyz'), making the game now compatible with all PCs with Python installed (Charcrafter uses Python 1.13). Enjoy playing CharCrafter on your OS!!!"
     }
   ]
 }
+
 
 
 
