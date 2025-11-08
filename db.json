@@ -53,9 +53,16 @@
       "date": "19/10/2025",
       "title": "New versions of CharCrafter 'Ver1 AlpDev1.7' and 'Ver1 AlpDev1.7.1' released!!!",
       "content": "In this new versions, I added fishing, campfire, a Matrix-style transition between the menu and the game world, the second menu option has had the ability to rename and delete files added, arrow and spear weapon logic has been added, animals spawn after a day, and a new inventory for ammo. I suggest to download the newest version, because it resolves a bug from AlpDev 1.7. That's everything and enjoy the game!!!"
+    },
+    {
+      "author": "AQUIL the eagle",
+      "date": "08/11/2025",
+      "title": "New AlpDev of CharCrafter 'Ver1 AlpDev1.8' released!!!",
+      "content": "In this new AlpDev I've finished adding the sanity mechanism and added a player diary, a new command list mechanism, the ability to click any button to make an in-game message disappear, and a game update viewer on the main menu."
     }
   ]
 }
+
 
 
 
